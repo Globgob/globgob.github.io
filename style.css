@@ -1,0 +1,57 @@
+header {
+    border: 10px solid;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+    display: flex;
+}
+
+header a{
+    text decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+h1 {
+    justify-content: center;
+    height: 40px;
+    color: black;
+    display: flex;
+}
+
+h2 {
+    justify-content: center;
+    color: black;
+    display: flex;
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+main img {
+    padding: 3%;
+    height: 410px;
+    width: 370px;
+    flex-wrap: wrap;
+}
+
+main p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    height: 40px;
+    width: 600px;
+    padding: 3%;
+}
+
+footer {
+    color: black;
+    border: 10px solid;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+    display: flex;
+}
