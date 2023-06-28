@@ -1,57 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artist-name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.left-aligned-text {
+    text-align: left;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.biography {
+    text-align: right;
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+}
+
+.biography-heading {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.right-aligned-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
 header {
-    border: 10px solid;
     align-items: center;
     height: 60px;
     justify-content: space-around;
     display: flex;
 }
 
-header a{
-    text decoration: none;
-    color: black;
+header a {
+    color: white;
+    text-decoration: none;
     font-size: 25px;
 }
 
 h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     justify-content: center;
     height: 40px;
-    color: black;
     display: flex;
 }
 
 h2 {
+    color: white;
     justify-content: center;
-    color: black;
     display: flex;
 }
 
 main {
-    justify-content: center;
     display: flex;
-    align-items: center;
-}
+    justify-content: left;
+  }
 
-main img {
-    padding: 3%;
-    height: 410px;
-    width: 370px;
+  .image-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
     flex-wrap: wrap;
-}
+    gap: 100px;
+  }
 
-main p{
-    color: black;
-    font-size: 15px;
-    line-height: 20px;
-    height: 40px;
-    width: 600px;
-    padding: 3%;
+  .image-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .image-caption {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px; 
+  }
+
+main p.image-caption {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 5px;
 }
 
 footer {
-    color: black;
-    border: 10px solid;
+    color: white;
     align-items: center;
     height: 60px;
     justify-content: space-around;
     display: flex;
+    text-decoration: none;
+    font-size: 25px;
 }
